@@ -19,8 +19,8 @@ PRODUCT_PACKAGES += \
 # Product Specifics
 PRODUCT_NAME := twrp_earth
 PRODUCT_DEVICE := earth
-PRODUCT_BRAND := Poco
-PRODUCT_MODEL := Poco C55
+PRODUCT_BRAND := Redmi
+PRODUCT_MODEL := Redmi 12C
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
