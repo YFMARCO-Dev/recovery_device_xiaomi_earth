@@ -61,9 +61,10 @@ PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
     fastbootd
 
-# MTK PlPath Utils
+# create_pl_dev
 PRODUCT_PACKAGES += \
-    mtk_plpath_utils.recovery
+    create_pl_dev \
+    create_pl_dev.recovery
 
 # Additional Libraries
 TARGET_RECOVERY_DEVICE_MODULES += \
