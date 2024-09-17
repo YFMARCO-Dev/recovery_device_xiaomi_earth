@@ -175,7 +175,7 @@ TW_USB_STORAGE := true
 TW_INCLUDE_FASTBOOTD := true
 TW_SCREEN_BLANK_ON_BOOT := true
 
-# Tool Box
+# Toolbox
 TW_USE_TOOLBOX := true
 
 # Include list
@@ -193,18 +193,5 @@ TW_INCLUDE_NTFS_3G    := true
 TW_INCLUDE_FUSE_EXFAT := true
 TW_INCLUDE_FUSE_NTFS  := true
 
-# CPU schedtune
-# ENABLE_CPUSETS := true
-# ENABLE_SCHEDBOOST := true
-
-# Disable mouse
-# TW_INPUT_BLACKLIST := "hbtp_vm"
-
-# Vibration
-# TW_NO_HAPTICS := true
-
-# Statusbar Custom Position
-# TW_STATUS_ICONS_ALIGN := center
-# TW_CUSTOM_CPU_POS := "300"
-# TW_CUSTOM_CLOCK_POS := "70"
-# TW_CUSTOM_BATTERY_POS := "790"
+# Custom position
+TW_CUSTOM_CPU_POS := "300"
