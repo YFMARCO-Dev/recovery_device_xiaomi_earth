@@ -4,6 +4,9 @@ LOCAL_PATH := device/xiaomi/earth
 TARGET_SCREEN_WIDTH := 720
 TARGET_SCREEN_HEIGHT := 1650
 
+# Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
+
 # Virtual A/B
 ENABLE_VIRTUAL_AB := true
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
